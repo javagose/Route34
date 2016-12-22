@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:checkableBehavior="2">
+        <item android:icon="0x1080055" android:id="@id/nav_cree_rec" android:title="Cree Reclamation" />
+        <item android:icon="0x1080053" android:id="@id/nav_vos_rec" android:title="Vos Reclamation" />
+    </group>
+    <group>
+        <item android:title="authentification">
+            <menu>
+                <item android:icon="0x1080033" android:id="@id/nav_login" android:title="Login" />
+                <item android:icon="0x1080039" android:id="@id/nav_logout" android:title="logour" />
+            </menu> />
+    </group>
+    <item android:title="info">
+        <menu>
+            <item android:icon="0x1080041" android:id="@id/nav_site" android:title="Notre SiteWeb" />
+        </menu> />
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>appropriation du trottoir</item>
+        <item>Routes dégradées</item>
+        <item>"Dos-d'àne"</item>
+        <item>Pollution</item>
+        <item>"Problème d'eau"</item>
+        <item>"Probléme de l'électricité"</item>
+    </string-array>
+    <string-array name="degrees">
+        <item>moin</item>
+        <item>fort</item>
+        <item>urgent</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>username</item>
+        <item>login</item>
+        <item>envoyer reclamation</item>
+    </string-array>
+</resources>

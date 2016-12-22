@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/spinner_icon" android:layout_width="-2" android:layout_height="-2" android:src="@mipmap/ic_launcher" />
+    <TextView android:id="@id/spinner_item_text" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

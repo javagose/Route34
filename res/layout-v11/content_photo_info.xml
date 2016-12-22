@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="11" app:orientation="1" app:background="@color/bg_photoinfo" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="@id/photo_info_toolbar" app:background="?unknown_attr_ref: 7f010104" app:layout_width="-1" app:layout_height="-2" app:minHeight="?unknown_attr_ref: 7f0100c8" app:titleTextColor="0x106000b">
+        <TextView app:textColor="0x106000b" app:layout_gravity="3" app:id="@id/main_toolbar_title" app:layout_width="-2" app:layout_height="-2" style="@style/TextAppearance_AppCompat_Widget_ActionBar_Title" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+        <TextView app:textAppearance="?unknown_attr_ref: 1010041" app:id="@id/categorieLabel" app:layout_width="-2" app:layout_height="-2" app:text="selectioner categorie" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+        <Spinner app:id="@id/categorieSpinner" app:background="@drawable/border" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="15dp" app:layout_below="@id/categorieLabel" app:layout_centerHorizontal="true" app:spinnerMode="1" />
+        <TextView app:textAppearance="?unknown_attr_ref: 1010041" app:id="@id/degreeLabel" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="25dp" app:text="Degrée D'urgence" app:layout_below="@id/categorieSpinner" app:layout_alignParentLeft="true" />
+        <Spinner app:id="@id/degrees" app:background="@drawable/border" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="15dp" app:layout_below="@id/degreeLabel" app:layout_alignParentLeft="true" app:spinnerMode="1" />
+        <ImageView app:id="@id/imageView" app:background="@drawable/border" app:layout_width="-1" app:layout_height="200dp" app:layout_marginTop="25dp" app:layout_below="@id/degrees" app:layout_alignParentLeft="true" />
+        <Button app:textColor="@color/border_color" app:id="@id/EnvoiBtn" app:background="@drawable/border" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="49dp" app:text="Envoyer Reclamationgg" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:foregroundGravity="50" app:onClick="onClickBtn" />
+        <TextView app:textAppearance="?unknown_attr_ref: 1010040" app:id="@id/address" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="25dp" app:text="Address" app:layout_below="@id/imageView" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

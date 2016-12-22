@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@mipmap/main_background" app:paddingTop="0dp" app:paddingBottom="0dp" app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:layout_width="-1" app:layout_height="-2">
+        <android.support.v7.widget.Toolbar app:id="@id/main_toolbar" app:background="?unknown_attr_ref: 7f010104" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f0100c8" app:popupTheme="@style/AppTheme_PopupOverlay" />
+        <TextView app:textColor="0x106000b" app:layout_gravity="3" app:id="@id/main_toolbar_title" app:layout_width="-2" app:layout_height="-2" style="@style/TextAppearance_AppCompat_Widget_ActionBar_Title" />
+    </android.support.design.widget.AppBarLayout>
+    <Button app:id="@id/PhotoBtn" app:background="@mipmap/prendre_photo_btn" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="100dp" app:layout_marginRight="100dp" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:onClick="onClickBtn" />
+</RelativeLayout>

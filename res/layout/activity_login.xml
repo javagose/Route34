@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout app:id="@id/login_drawer_layout" app:background="@color/bg_login" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.NavigationView app:layout_gravity="800003" app:id="@id/login_nav_view" app:fitsSystemWindows="true" app:layout_width="-2" app:layout_height="-1" app:menu="@menu/activity_navigation_darwer_drawer" app:headerLayout="@layout/nav_header_navigation_darwer" />
+    <android.support.v7.widget.Toolbar app:id="@id/logintoolbar" app:background="?unknown_attr_ref: 7f010104" app:layout_width="-1" app:layout_height="-2" app:minHeight="?unknown_attr_ref: 7f0100c8" app:titleTextColor="0x106000b" />
+    <include layout="@layout/content_login" />
+</android.support.v4.widget.DrawerLayout>
